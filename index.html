@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OVERSIDE</title>
+    <link rel="icon" href="IMAGES/ICONO.png">
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
@@ -26,7 +27,8 @@
         <!-- HERO -->
         <section class="hero" id="inicio">
             <img class="hero_img" src="IMAGES/hero.jpg" alt="Modelo vistiendo la coleccion OVERSIDE">
-            <p class="hero_issue_eyebrow">Colección 01 - 2025</p>
+            <div class="hero_shade"></div>
+            <p class="hero_issue eyebrow">Colección 01 - 2025</p>
             <h1 class="hero_title">OVERSIDE</h1>
 
             <div class="hero_bottom">
@@ -45,7 +47,7 @@
         </div>
 
         <!-- COLECCION -->
-        <section class="section_coleccion" id="coleccion">
+        <section class="section coleccion" id="coleccion">
 
             <div class="section_head">
                 <div>
@@ -54,11 +56,11 @@
                 </div>
                 <div class="section_aside">
                     <p>Formas precisas. Actitudes libres. Ocho piezas construidas para protagonizar tu propia historia.</p>
-                    <a href="#coleccion" class="btn btn-text">Ver todo</a>
+                    <a href="#coleccion" class="btn btn_text">Ver todo</a>
                 </div>
             </div>
 
-
+        <!-- Grilla de productos -->
             <div class="coleccion_grid">
 
                 <article class="card">
@@ -76,6 +78,111 @@
                     </div>
                 </article>
 
+                <article class="card">
+                    <a class="card_link" href="#newsletter" aria-label="Ver Camisa Lumière">
+                        <img class="card_img" src="IMAGES/producto-2.jpg" alt="Camisa Lumière">
+                        <span class="card_quick">Vista rápida</span>
+                    </a>
+
+                    <div class="card_meta">
+                        <div>
+                            <h3 class="card_name">Camisa Lumière</h3>
+                            <p class="card_category">Prendas superiores</p>
+                        </div>
+                        <strong class="card_price">S/ 115</strong>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card_link" href="#newsletter" aria-label="Ver Pantalon Cadre">
+                        <img class="card_img" src="IMAGES/producto-3.jpg" alt="Pantalon Cadre">
+                        <span class="card_quick">Vista rápida</span>
+                    </a>
+
+                    <div class="card_meta">
+                        <div>
+                            <h3 class="card_name">Pantalon Cadre</h3>
+                            <p class="card_category">Pantalones</p>
+                        </div>
+                        <strong class="card_price">S/ 145</strong>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card_link" href="#newsletter" aria-label="Ver Blazer Minuit">
+                        <img class="card_img" src="IMAGES/producto-4.jpg" alt="Blazer Minuit">
+                        <span class="card_quick">Vista rápida</span>
+                    </a>
+
+                    <div class="card_meta">
+                        <div>
+                            <h3 class="card_name">Blazer Minuit</h3>
+                            <p class="card_category">Sastrería</p>
+                        </div>
+                        <strong class="card_price">S/ 220</strong>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card_link" href="#newsletter" aria-label="Ver Vestido Eclipse">
+                        <img class="card_img" src="IMAGES/producto-5.jpg" alt="Vestido Eclipse">
+                        <span class="card_quick">Vista rápida</span>
+                    </a>
+
+                    <div class="card_meta">
+                        <div>
+                            <h3 class="card_name">Vestido Eclipse</h3>
+                            <p class="card_category">Vestidos</p>
+                        </div>
+                        <strong class="card_price">S/ 185</strong>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card_link" href="#newsletter" aria-label="Ver Jersey Grain">
+                        <img class="card_img" src="IMAGES/producto-6.jpg" alt="Jersey Grain">
+                        <span class="card_quick">Vista rápida</span>
+                    </a>
+
+                    <div class="card_meta">
+                        <div>
+                            <h3 class="card_name">Jersey Grain</h3>
+                            <p class="card_category">Punto</p>
+                        </div>
+                        <strong class="card_price">S/ 125</strong>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card_link" href="#newsletter" aria-label="Ver Gabardina 35mm">
+                        <img class="card_img" src="IMAGES/producto-7.jpg" alt="Gabardina 35mm">
+                        <span class="card_quick">Vista rápida</span>
+                    </a>
+
+                    <div class="card_meta">
+                        <div>
+                            <h3 class="card_name">Gabardina 35mm</h3>
+                            <p class="card_category">Abrigos</p>
+                        </div>
+                        <strong class="card_price">S/ 265</strong>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <a class="card_link" href="#newsletter" aria-label="Ver Bolso Studio">
+                        <img class="card_img" src="IMAGES/producto-8.jpg" alt="Bolso Studio">
+                        <span class="card_quick">Vista rápida</span>
+                    </a>
+
+                    <div class="card_meta">
+                        <div>
+                            <h3 class="card_name">Bolso Studio</h3>
+                            <p class="card_category">Accesorios</p>
+                        </div>
+                        <strong class="card_price">S/ 95</strong>
+                    </div>
+                </article>
+
                 <!-- HACER 7 TARJETAS MÁS LUEGOOOOOOOOOOO -->
             </div>
 
@@ -83,23 +190,146 @@
         </section>
 
         <!-- CATEGORIAS -->
-        <section class="categorias" id="categorias"></section>
+        <section class="categorias" id="categorias">
+            <p class="eyebrow">02 / Categorías</p>
+
+            <div class="categorias_grid">
+                <a class="cat" href="#coleccion">
+                    <img class="cat_img" src="IMAGES/producto-5.jpg" alt="Prendas superiores">
+                    <span class="cat_num">01</span>
+                    <h3 class="cat_name">Prendas superiores</h3>
+                    <span class="cat_arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a class="cat" href="#coleccion">
+                    <img class="cat_img" src="IMAGES/producto-6.jpg" alt="Pantalones">
+                    <span class="cat_num">02</span>
+                    <h3 class="cat_name">Pantalones</h3>
+                    <span class="cat_arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a class="cat" href="#coleccion">
+                    <img class="cat_img" src="IMAGES/producto-7.jpg" alt="Abrigos">
+                    <span class="cat_num">03</span>
+                    <h3 class="cat_name">Abrigos</h3>
+                    <span class="cat_arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <a class="cat" href="#coleccion">
+                    <img class="cat_img" src="IMAGES/producto-8.jpg" alt="Accesorios">
+                    <span class="cat_num">04</span>
+                    <h3 class="cat_name">Accesorios</h3>
+                    <span class="cat_arrow" aria-hidden="true">↗</span>
+                </a>
+            </div>
+        </section>
 
         <!-- BANNER EDITORIAL -->
-        <section class="banner"></section>
+        <section class="banner">
+            <img class="banner_img" src="IMAGES/banner.jpg" alt="Figura con abrigo en blanco y negro">
+            <div class="banner_copy">
+                <span>No seguimos</span>
+                <strong>el guion.</strong>
+                <span>Lo vestimos.</span>
+            </div>
+            <p class="banner_tag eyebrow">Manifiesto OVERSIDE - Acto I</p>
+        </section>
 
         <!-- NOSOTROS -->
-        <section class="nosotros" id="nosotros"></section>
+        <section class="section nosotros" id="nosotros">
+            <div class="nosotros_title">
+                <p class="eyebrow">03 / Sobre OVERSIDE</p>
+                <h2 class="section_title">Una marca. <br>Todas las <br><em>identidades</em></h2>
+            </div>
+
+            <figure class="nosotros_img">
+                <img src="IMAGES/nosotros.jpg" alt="Retrato artístico de la campaña OVERSIDE">
+                <figcaption>OVERSIDE ©25</figcaption>
+            </figure>
+
+            <div class="nosotros_text">
+                <p>Diseñamos prendas que no preguntan quién eres. Siluetas atemporales, materiales honestos y una mirada que transciende temporadas</p>
+                <p>OVERSIDE nace entre Madrid y París con una idea sencilla: la ropa no tiene género, tiene carácter. </p>
+                <a href="#nosotros" class="btn btn_outline">Nuestra historia <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
 
         <!-- LOOKBOOK -->
-        <section class="lookbook" id="lookbook"></section>
+        <section class="section lookbook" id="lookbook">
+            <div class="lookbook_head">
+                <p class="eyebrow">04 / Lookbook</p>
+                <h2 class="section_title">Entre <br><em>tomas</em></h2>
+                <p class="lookbook_credits">Campaña 01 <br>Fotografía: Archivo OVERSIDE <br>Madrid. 2025</p>
+            </div>
+
+            <div class="lookbook_mosaic">
+                <figure><img src="IMAGES/producto-2.jpg" alt="Look editorial OVERSIDE 1"><figcaption>LOOK 01</figcaption></figure>
+                <figure><img src="IMAGES/producto-3.jpg" alt="Look editorial OVERSIDE 2"><figcaption>LOOK 02</figcaption></figure>
+                <figure><img src="IMAGES/producto-4.jpg" alt="Look editorial OVERSIDE 3"><figcaption>LOOK 03</figcaption></figure>
+                <figure><img src="IMAGES/producto-5.jpg" alt="Look editorial OVERSIDE 4"><figcaption>LOOK 04</figcaption></figure>
+                <figure><img src="IMAGES/producto-6.jpg" alt="Look editorial OVERSIDE 5"><figcaption>LOOK 05</figcaption></figure>
+                <figure><img src="IMAGES/producto-7.jpg" alt="Look editorial OVERSIDE 6"><figcaption>LOOK 06</figcaption></figure>
+                <figure><img src="IMAGES/producto-8.jpg" alt="Look editorial OVERSIDE 7"><figcaption>LOOK 07</figcaption></figure>
+            </div>
+
+
+        </section>
 
         <!-- NEWSLETTER -->
-        <section class="newsletter"></section>
+        <section class="newsletter" id="newsletter">
+            <p class="eyebrow">Únete al reparto</p>
+            <h2 class="newsletter_title"> La próxima <br>escena empieza <em>contigo</em></h2>
+            <p class="newsletter_text">Acceso anticipado, historias y nuevas colecciones. <br>Nada de ruido. Solo lo esencial.</p>
+
+            <form class="newsletter_form" novalidate>
+                <label class="visually-hidden" for="email">Correo electrónico</label>
+                <input type="email" name="email" id="email" placeholder="TU CORREO ELECTRONICO" required>
+                <button type="submit" aria-label="Suscribirse">→</button>
+            </form>
+
+            <!-- JS MOSTRARÁ UN MENSAJE AL ENVIAR -->
+            <p class="newsletter_msg" role="status" aria-live="polite"></p>
+        </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer" id="contacto"></footer>
+    <footer class="footer" id="contacto">
+        <div class="footer_top">
+            <a class="footer_logo" href="#inicio">OVERSIDE</a>
+            <p>Moda unisex para quienes <br>escriben su propio guion</p>
+        </div>
+
+        <div class="footer_links">
+            <div>
+                <p class="eyebrow">Explora</p>
+                <a href="#coleccion">Coleccion</a>
+                <a href="#categorias">Categorias</a>
+                <a href="#lookbook">Lookbook</a>
+                <a href="#nosotros">Nosotros</a>
+            </div>
+
+            <div>
+                <p class="eyebrow">Ayuda</p>
+                <a href="#">Envíos y devoluciones</a>
+                <a href="#">Guía de tallas</a>
+                <a href="#">Preguntas frecuentes</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <div>
+                <p class="eyebrow">Síguenos</p>
+                <a href="#">Instagram ↗</a>
+                <a href="#">Pinterest ↗</a>
+                <a href="#">TikTok ↗</a>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <span>© 2025 OVERSIDE</span>
+            <span>PRIVACIDAD · TÉRMINOS</span>
+            <span> MADRID - 40.4168° N</span>
+        </div>
+    </footer>
 
     <script src="JS/script.js"></script>
 </body>
